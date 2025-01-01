@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/MyFont.woff2') format('woff2'),
+        url('fonts/MyFont.woff') format('woff'),
+        url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
-
-
-* {
-    box-sizing: border-box;
-    font-family: Roboto;
+body {
+    font-family: 'roboto', sans-serif;
 }
