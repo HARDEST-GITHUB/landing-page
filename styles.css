@@ -55,7 +55,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color:#1F2937;
-    flex: 1;
+    flex: 0 1 475px;
 }
 
 .holder {
