@@ -16,18 +16,14 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 16px;
+    gap: 465px;
 }
 .header-logo-text {
     font-weight: 900;
     font-size: 24px;
-    margin-left: 150px;
-}
-
-.header-links {
-    margin-right: 150px;
 }
 
 a {
@@ -83,9 +79,19 @@ ul {
     color: #e5e7eb;
 }
 
-button {
+.button {
     background-color: #3882f6;
-    flex: 0 0 0;
+    align-self: flex-start;
+    border-radius: 7px;
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+}
+
+.button.top {
+    border: 0px solid #3882f6;
 }
 
 .image {
@@ -96,9 +102,12 @@ button {
     color: white;
     font-size: 18px;
     background-color: #6d747d;
+    color: #e5e7eb;
 }
 
 .section-two {
     flex: 0 1 500px;
     display: flex;
+    flex-direction: column;
+    gap: 55px;
 }
