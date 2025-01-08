@@ -109,6 +109,17 @@ ul {
     flex: 0 1 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 55px;
+    outline: auto;
 }
 
+.holder-two {
+    height: 330px;
+    width: 825px;
+    outline: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+}
