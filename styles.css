@@ -210,4 +210,15 @@ ul {
     color: white;
     border-color: white;
     align-self: center;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex: 0 0 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
