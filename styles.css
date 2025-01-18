@@ -21,6 +21,7 @@ body {
     padding: 16px;
     gap: 465px;
 }
+
 .header-logo-text {
     font-weight: 900;
     font-size: 24px;
@@ -50,7 +51,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#1F2937;
+    background-color: #1F2937;
     flex: 0 1 475px;
 }
 
@@ -86,8 +87,8 @@ ul {
     color: #f9faf8;
     font-weight: 600;
     font-size: 18px;
-    width: 130px;
-    height: 40px;
+    width: 126px;
+    height: 33px;
 }
 
 .button.top {
@@ -171,4 +172,42 @@ ul {
     align-self: flex-end;
     font-weight: 900;
     font-size: 20px;
+}
+
+.section-four {
+    flex: 0 0 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    background-color: #3882f6;
+    padding: 54px 122px;
+    border-radius: 5px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.bottom-text {
+    color: #e5e7eb;
+}
+
+.button.bottom {
+    color: white;
+    border-color: white;
+    align-self: center;
 }
